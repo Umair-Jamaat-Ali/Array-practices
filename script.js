@@ -52,4 +52,12 @@ var studentsArray = [{name:"saqib", class:"Tenth", Teacher:"Maham"},{name:"Azan"
  console.log(sumArr.join());
  console.log(array1.join());
 
- //// map()....
+ /// include()...
+
+ var incl = "Hi i am umair jamaat ali";
+ 
+ if (incl.includes("umair")  || incl.includes("yahoo")) {
+  console.log("is valid");
+ }else{
+  console.log("is not valid");
+ }
